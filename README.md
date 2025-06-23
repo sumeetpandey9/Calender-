@@ -1,25 +1,35 @@
-# 🗓️ Calendar App
+# 🗓️ Calendar App — Upgraded!
 
-A visually stunning and responsive full calendar web app built using **HTML**, **CSS**, and **JavaScript**.
+A visually stunning and fully functional calendar web app built using **HTML**, **CSS**, and **JavaScript**.
 
-This app dynamically displays the current month, days, and dates with smooth animations and glassmorphism UI. Inspired by modern calendar UIs like Google Calendar.
+This app now goes beyond just showing dates — it includes **holiday & festival data via API**, **custom birthdays**, and **event tracking**. Styled with a clean glassmorphism UI inspired by modern tools like Google Calendar.
 
 ---
 
 ## ✨ Features
 
-- 📆 Full monthly calendar view
-- 💅 Beautiful glassmorphism design with gradient backgrounds
-- ⚡ Animated hover effects for interactivity
-- 🔄 Previous / Next month navigation
-- 📌 Highlights today’s date
-- 💻 Fully responsive and mobile-friendly
+- 📆 Full monthly calendar view with navigation
+- 📅 Add your own **🎂 birthdays** and **📌 events** (saved in localStorage)
+- 🛕 **Holiday & Festival API integration** (India-specific, via Calendarific)
+- 💅 Beautiful glassmorphism design and responsive layout
+- ⚡ Interactive tooltips on hover for holidays, birthdays & events
+- 🔄 Navigate to previous/next months
+- 🎯 Highlights today’s date
+- 💻 Fully responsive & mobile-friendly
 
 ---
 
 ## 📷 Preview
 
-![Calendar Screenshot](preview.png) 
+![Calendar Screenshot](preview.png)
+
+---
+
+## 🧪 Tech Stack
+
+- **HTML5**
+- **CSS3** (Grid + Flexbox + Glassmorphism)
+- **JavaScript** (DOM + API + LocalStorage)
 
 ---
 
@@ -31,33 +41,45 @@ This app dynamically displays the current month, days, and dates with smooth ani
 ├── script.js
 └── README.md
 
-## 🚀 How to Run
-
-Just open `index.html` in your browser — no setup required.
 
 ---
 
-## 📦 Future Improvements
+## 🚀 How to Run
 
-- 🌐 Add holiday/festival integration using an API
-- 📅 Event creation & reminder functionality
-- ☁️ Store user events locally or via backend
+1. Clone or download the repo  
+2. Open `index.html` in your browser  
+3. Add birthdays/events, scroll through months — all data is saved locally!
+
+---
+
+## 📦 Upcoming Features
+
+- 🔔 **Reminder Notifications** for birthdays/events (via Browser Notification API)
+- ♻️ **Recurring Events Support** (e.g., yearly birthdays, monthly tasks)
+- 🌓 **Light/Dark Theme Toggle**
 
 ---
 
 ## 🧠 Learnings
 
-Built this project to practice:
-- DOM manipulation
-- Date functions in JavaScript
-- Responsive layout with CSS Grid
-- Clean UI principles and interactivity
+This project helped me understand:
+- DOM manipulation & calendar logic (days, offsets, leap years)
+- Working with public APIs (Calendarific)
+- Managing localStorage as a data store
+- Creating polished and responsive UI using only vanilla technologies
 
 ---
 
 ## 🙌 Contributing
 
-Feel free to fork the repo, open issues, or create pull requests.
+Have ideas or want to contribute?  
+Feel free to fork, star ⭐️, or create a pull request!
+
+---
+
+## 🔗 Live Demo (Coming Soon)
+
+Will be hosted on GitHub Pages / Vercel.
 
 ---
 

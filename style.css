@@ -11,6 +11,7 @@ body {
   color: #fff;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -104,4 +105,125 @@ body {
   background-color: #ff4b2b !important;
   color: #fff;
   font-weight: bold;
+}
+
+.holiday {
+  background-color: #ffc107 !important;
+  color: black !important;
+  font-weight: bold;
+  cursor: help;
+}
+
+.custom-tooltip {
+  position: absolute;
+  background-color: #222;
+  color: #ffc107;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  display: none;
+  transition: opacity 0.2s ease-in-out;
+  white-space: nowrap;
+}
+
+
+.birthday {
+  background-color: #9b59b6 !important;
+  color: white !important;
+  font-weight: bold;
+  border: 2px solid #d7aaff;
+  box-shadow: 0 0 12px #b56ff1;
+  cursor: pointer;
+}
+
+.birthday-form {
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.birthday-form input,
+.birthday-form button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.birthday-form input {
+  flex: 1 1 150px;
+}
+
+.birthday-form button {
+  background: #9b59b6;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.birthday-form button:hover {
+  background: #b57bd7;
+}
+
+
+.form-section {
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+#birthdayList, #eventList {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.95rem;
+  color: #ffd;
+}
+
+.form-section div span {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: #ff4b2b;
+  color: white;
+  padding: 2px 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.event {
+  background-color: #3498db !important;
+  color: white !important;
+  box-shadow: 0 0 12px #3498db;
+  font-weight: bold;
+}
+
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  min-width: 100vh;
+  gap: 10px;
 }
